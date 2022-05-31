@@ -6,7 +6,7 @@ public class PessoaRepository {
 
 	
 	
-	private UUID uuid;
+	/*private UUID uuid;*/
 	
 	
 	

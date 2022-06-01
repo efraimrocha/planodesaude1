@@ -1,13 +1,16 @@
 package br.com.planodesaude.sistema.domain;
 
 import org.hibernate.mapping.List;
+
+import br.com.planodesaude.sistema.repositories.PessoaRepository;
+
 import java.util.UUID;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 import org.hibernate.mapping.List;
 
-public class Pessoa {
+public class Pessoa extends PessoaRepository{
 
 	
 	private UUID id;
